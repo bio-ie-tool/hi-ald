@@ -136,8 +136,8 @@ if __name__ == '__main__':
     args = parser.parse_args()
 
     # Example arguments (can be overwritten by command line)
-    args.input_file = "models/hoip/embedding/graph_osi.pkl"
-    args.output_file = "models/hoip/embedding/graph_osi_new_louvain.pkl"
+    args.input_file = "models/hoip/embedding/graph_ossi.pkl"
+    args.output_file = "models/hoip/embedding/graph_ossi_louvain.pkl"
     args.num_clusters = 10
     args.resume = False
 
